@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.542">
+    <testcase classname="To test Login feature" name="By Entering into Orange HRM login website" time="0.083">
+        <system-out>
+            <![CDATA[Given User enters into the login page.......................................skipped
+When User gives the valid Credentails.......................................skipped
+And User Clicks the login buton.............................................skipped
+Then HRM Welcome Page Should be Displayed...................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This is to test google search" name="Positive test" time="0.012">
+        <system-out>
+            <![CDATA[Given user is entering google.co.in.........................................skipped
+When user is typing he search term "mohan"..................................skipped
+And enters the return key...................................................skipped
+Then the user should see the search results.................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="This is to test google search" name="Negative test" time="0.004">
+        <system-out>
+            <![CDATA[Given user is entering google.co.in.........................................skipped
+When user is typing he search term "mohan"..................................skipped
+And enters the return key...................................................skipped
+Then the user should see the search results.................................skipped
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

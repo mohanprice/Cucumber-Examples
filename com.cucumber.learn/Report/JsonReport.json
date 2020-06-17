@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-08T03:40:47.493Z",
+        "line": 3,
+        "name": "By Entering into Orange HRM login website",
+        "description": "",
+        "id": "to-test-login-feature;by-entering-into-orange-hrm-login-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2001300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User enters into the login page",
+            "match": {
+              "location": "stepDefinitions.HrmLogin.user_enters_into_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User gives the valid Credentails",
+            "match": {
+              "location": "stepDefinitions.HrmLogin.user_gives_the_valid_Credentails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Clicks the login buton",
+            "match": {
+              "location": "stepDefinitions.HrmLogin.user_Clicks_the_login_buton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "HRM Welcome Page Should be Displayed",
+            "match": {
+              "location": "stepDefinitions.HrmLogin.hrm_Welcome_Page_Should_be_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "To test Login feature",
+    "description": "",
+    "id": "to-test-login-feature",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Login.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-08T03:40:47.625Z",
+        "line": 3,
+        "name": "Positive test",
+        "description": "",
+        "id": "this-is-to-test-google-search;positive-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user is entering google.co.in",
+            "match": {
+              "location": "stepDefinitions.OpenGoogleDefinitions.user_is_entering_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is typing he search term \"mohan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohan\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.OpenGoogleDefinitions.user_is_typing_he_search_term(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "enters the return key",
+            "match": {
+              "location": "stepDefinitions.OpenGoogleDefinitions.enters_the_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "stepDefinitions.OpenGoogleDefinitions.the_user_should_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-08T03:40:47.655Z",
+        "line": 10,
+        "name": "Negative test",
+        "description": "",
+        "id": "this-is-to-test-google-search;negative-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is entering google.co.in",
+            "match": {
+              "location": "stepDefinitions.OpenGoogleDefinitions.user_is_entering_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is typing he search term \"mohan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohan\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.OpenGoogleDefinitions.user_is_typing_he_search_term(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "enters the return key",
+            "match": {
+              "location": "stepDefinitions.OpenGoogleDefinitions.enters_the_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "stepDefinitions.OpenGoogleDefinitions.the_user_should_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      }
+    ],
+    "name": "This is to test google search",
+    "description": "",
+    "id": "this-is-to-test-google-search",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/OpenGoogle.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
